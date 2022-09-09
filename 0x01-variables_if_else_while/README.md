@@ -29,4 +29,8 @@
 
 ## Task 2:
 
-2. 2-print_alphabet.c - a program that prints the alphabet in lowercase, followed by a new line.
+2. 2-print_alphabet.c - a program that prints the alphabet in lowercase, followed by a new line
+
+# Task 3:
+
+3. 3-print_alphabets.c - a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line
