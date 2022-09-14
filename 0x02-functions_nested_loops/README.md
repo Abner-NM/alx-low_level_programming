@@ -15,4 +15,11 @@
 8. 8-24_hours.c - a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59._
 9. 9-times_table.c - a function that prints the 9 times table, starting with 0_
 10. 10-add.c - a function that adds two integers and returns the result
+11. 11-print_to_98.c - a function that prints all natural numbers from n to 98, followed by a new line.
+	* Prototype: void print_to_98(int n);
+	* Numbers must be separated by a comma, followed by a space
+	* Numbers should be printed in order
+	* The first printed number should be the number passed to your function
+	* The last printed number should be 98
+	* You are allowed to use the standard library
 
