@@ -19,4 +19,5 @@
 	* The line should end with a \n
 	* If n is 0 or less, the function should only print \n
 7. 7-print_diagonal.c - a function that draws a diagonal line on the terminal
+8. 8-print_square.c - a function that prints a square, followed by a new line
 
