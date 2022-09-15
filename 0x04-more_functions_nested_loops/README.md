@@ -8,4 +8,5 @@
 	* Prototype: int _isdigit(int c);
 	* Returns 1 if c is a digit
 	* Returns 0 otherwise
+2. 2-mul.c - a function that multiplies two integers
 
