@@ -9,4 +9,5 @@
 	* Returns 1 if c is a digit
 	* Returns 0 otherwise
 2. 2-mul.c - a function that multiplies two integers
+3. 3-print_numbers.c - a function that prints the numbers, from 0 to 9, followed by a new line
 
