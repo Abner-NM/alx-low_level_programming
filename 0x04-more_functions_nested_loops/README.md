@@ -20,4 +20,7 @@
 	* If n is 0 or less, the function should only print \n
 7. 7-print_diagonal.c - a function that draws a diagonal line on the terminal
 8. 8-print_square.c - a function that prints a square, followed by a new line
+9. 9-fizz_buzz.c - a program that prints the numbers from 1 to 100, followed by a new line. But for multiples of three print Fizz instead of the number and for the multiples of five print Buzz. For numbers which are multiples of both three and five print FizzBuzz
+	* Each number or word should be separated by a space
+	* You are allowed to use the standard library
 
