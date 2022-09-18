@@ -24,4 +24,10 @@
 	* Each number or word should be separated by a space
 	* You are allowed to use the standard library
 10. 10-print_triangle.c - a function that prints a triangle, followed by a new line
-11. 100-prime_factor.c - a program that finds and prints the largest prime factor of the number 612852475143, followed by a new line.
+11. 100-prime_factor.c - a program that finds and prints the largest prime factor of the number 612852475143, followed by a new line
+12. 101-print_number.c - a function that prints an integer.
+	* Prototype: void print_number(int n);
+	* You can only use _putchar function to print
+	* You are not allowed to use long
+	* You are not allowed to use arrays or pointers
+	* You are not allowed to hard-code special values
