@@ -11,12 +11,12 @@ int main(void)
 	long int n, d;
 
 	n = 612852475143;
-	d = 3;
 
-	while (n % d == 0)
+	for (d = 2; d < n; d++)
 	{
-		n = n / d;
+		if (n % d == 0)
+			n = n / d;
 	}
-	printf("%ld\n", n);
+	printf("%ld\n", d);
 	return (0);
 }
