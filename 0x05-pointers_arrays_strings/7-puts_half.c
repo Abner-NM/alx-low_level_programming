@@ -5,12 +5,11 @@
  * string, followed by a new line
  * @str: string to be printed
  */
-
 void puts_half(char *str)
 {
-	int i, j, len;
+	int len, n, i;
 
-	len  = 0;
+	len = 0;
 
 	while (str[len] != '\0')
 	{
@@ -23,10 +22,9 @@ void puts_half(char *str)
 		{
 			_putchar(str[i]);
 		}
-	}
-	else if (len % 2)
+	} else if (len % 2)
 	{
-		for (j = (len - 1) / 2; j < len - 1; j++)
+		for (n = (len - 1) / 2; n < len - 1; n++)
 		{
 			_putchar(str[n + 1]);
 		}
