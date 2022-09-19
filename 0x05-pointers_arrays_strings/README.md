@@ -8,4 +8,9 @@
 5. 5-rev_string.c - a function that reverses a string
 6. 6-puts2.c - a function that prints every other character of a string, starting with the first character, followed by a new line
 7. 7-puts_half.c - a function that prints half of a string, followed by a new line
+8. 8-print_array.c - a function that prints n elements of an array of integers, followed by a new line
+	* where n is the number of elements of the array to be printed
+	* Numbers must be separated by comma, followed by a space
+	* The numbers should be displayed in the same order as they are stored in the array
+	* You are allowed to use printf
 
