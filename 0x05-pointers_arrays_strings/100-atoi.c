@@ -9,6 +9,7 @@
 
 int _atoi(char *s)
 {
+	int i;
 	int n = 0;
 
 	for (i = 0; str[i] != '\0'; i++)
