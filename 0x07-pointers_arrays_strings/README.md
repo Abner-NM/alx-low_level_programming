@@ -15,4 +15,4 @@
 5. 5-strstr.c - a function that locates a substring.
 	* finds the first occurrence of the substring needle in the string haystack. The terminating null bytes (\0) are
 	* Returns a pointer to the beginning of the located substring, or NULL if the substring is not found
-
+6. 7-print_chessboard.c - a function that prints the chessboard
