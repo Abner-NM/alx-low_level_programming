@@ -12,4 +12,7 @@
 	* Returns the number of bytes in the initial segment of s which consist only of bytes from accept
 4. 4-strpbrk.c -  function that searches a string for any of a set of bytes
 	* a pointer to the byte in s that matches one of the bytes in accept, or NULL if no such byte is found
+5. 5-strstr.c - a function that locates a substring.
+	* finds the first occurrence of the substring needle in the string haystack. The terminating null bytes (\0) are
+	* Returns a pointer to the beginning of the located substring, or NULL if the substring is not found
 
