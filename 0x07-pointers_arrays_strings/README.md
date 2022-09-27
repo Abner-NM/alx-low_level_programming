@@ -16,3 +16,5 @@
 	* finds the first occurrence of the substring needle in the string haystack. The terminating null bytes (\0) are
 	* Returns a pointer to the beginning of the located substring, or NULL if the substring is not found
 6. 7-print_chessboard.c - a function that prints the chessboard
+7. 8-print_diagsums.c - a function that prints the sum of the two diagonals of a square matrix of integers
+
