@@ -12,7 +12,7 @@ void print_diagsums(int *a, int size)
 {
 	int i;
 
-	unsigned int sum1, sum2;
+	int sum1, sum2;
 
 	sum1 = 0;
 	sum2 = 0;
