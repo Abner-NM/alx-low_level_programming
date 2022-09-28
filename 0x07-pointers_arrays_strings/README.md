@@ -18,3 +18,4 @@
 6. 7-print_chessboard.c - a function that prints the chessboard
 7. 8-print_diagsums.c - a function that prints the sum of the two diagonals of a square matrix of integers
 8. 100-set_string.c - a function that sets the value of a pointer to a char.
+9. 101-crackme_password - a file that contains the password for the [crackme2](https://github.com/holbertonschool/0x06.c) executable.
