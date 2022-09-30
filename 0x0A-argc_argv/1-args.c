@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /**
- * main - a program that prints its name,
- * followed by a new line
+ * main -  prints the number of
+ * arguments passed into it
  * @argc: number of arguements
  * @argv: string of arguements
  *
