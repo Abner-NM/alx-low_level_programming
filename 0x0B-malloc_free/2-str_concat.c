@@ -3,7 +3,7 @@
 
 /**
  * *str_concat - concatenates two strings
- * @s1; destination string
+ * @s1: destination string
  * @s2: source string
  *
  * Return: new string on success or NULL if failure
@@ -22,7 +22,7 @@ char *str_concat(char *s1, char *s2)
 
 	size = len1 + len2;
 
-	str = malloc(sizeof(char) * (size +1));
+	str = malloc(sizeof(char) * (size + 1));
 
 	if (str == NULL)
 		return (NULL);
