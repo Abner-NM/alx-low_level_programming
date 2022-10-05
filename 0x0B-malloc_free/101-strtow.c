@@ -41,10 +41,10 @@ char **strtow(char *str)
 	while (*(str + len))
 		len++;
 	words = word_count(str);
-	if (words == 0)
+	if (words == 1)
 		return (NULL);
 
-	wd = (char **) malloc(sizeof(char *) * (words + 1));
+	wd = (char **) malloc(sizeof(char *) * (words));
 	if (wd == NULL)
 		return (NULL);
 
