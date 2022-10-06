@@ -5,7 +5,7 @@
  * *string_nconcat - a function that concatenates two strings
  * @s1: destination string
  * @s2: source string
- * @n: amount of bytes to allocate
+ * @n: amount of bytes to allocate for s2
  *
  * Return: pointer to allocated space or Null if failure
  */
@@ -27,29 +27,19 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (str == NULL)
 		return (NULL);
-	if (s1)
+
+	while (i < len1)
 	{
-		while (i < len1)
-		{
-			str[i] = s1[i];
-			i++;
-		}
+		str[i] = s1[i];
+		i++;
 	}
-	if (s2)
-	{
-		while (n < len2 && i < (len1 + n + 1))
-		{
-			str[i] = s2[j];
-			i++;
-			j++;
-		}
-		while (n >= len2 && i < (len1 + len2 + 1))
-		{
-			str[i] = s2[j];
-			i++;
-			j++;
-		}
-	}
+
+	while (n < len2 && i < (len1 + n))
+		str[i++] = s2[j++];
+	while (n >= len2 && i < (len1 + len2))
+		str[i++] = s2[j++];
+
 	str[i] = '\0';
+
 	return (str);
 }
