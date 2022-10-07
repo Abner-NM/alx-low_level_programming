@@ -4,8 +4,8 @@
 /**
  * *_realloc - reallocates a memory block using malloc and free
  * @ptr: pointer to a memory allocated by malloc
- * @old_size: bytes of the old memory block
- * @new_size: bytes of the new memory block
+ * @old_size: size in of bytes of the old memory block
+ * @new_size: size in bytes of the new memory block
  *
  * Return: pointer to new memory or NULL on failure
 */
