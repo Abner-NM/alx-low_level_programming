@@ -12,4 +12,4 @@
 4. **4-new_dog.c** - a function that creates a new dog
 	* You have to store a copy of name and owner
 	* Return NULL if the function fails
-
+5. **5-free_dog.c** - a function that frees dogs
