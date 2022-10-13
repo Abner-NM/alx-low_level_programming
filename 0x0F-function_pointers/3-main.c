@@ -7,7 +7,6 @@
  *
  * Return: Awalsy 0 if Success, 1 otherwise
 */
-
 int main(int argc, char *argv[])
 {
 	int arg1, arg2, result;
@@ -23,7 +22,6 @@ int main(int argc, char *argv[])
 
 	arg1 = atoi(argv[1]);
 	arg2 = atoi(argv[3]);
-	operator = *argv[2];
 
 	fn = get_op_func(argv[2]);
 
@@ -32,6 +30,8 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(99);
 	}
+
+	operator = *argv[2];
 
 	if ((operator == '/' || operator == '%') && arg2 == 0)
 	{
