@@ -30,13 +30,13 @@ int main(int argc, char *argv[])
 	if (!fn)
 	{
 		printf("Error\n");
-		exit(98);
+		exit(99);
 	}
 
 	if ((operator == '/' || operator == '%') && arg2 == 0)
 	{
 		printf("Error\n");
-		exit(98);
+		exit(100);
 	}
 
 	result = fn(arg1, arg2);
