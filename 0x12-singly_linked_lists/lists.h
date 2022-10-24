@@ -5,7 +5,7 @@
 #include <stdlib.h>
 
 /**
- * struct list_n - singly linked list
+ * struct list_s - singly linked list
  * @str: string in linked list node
  * @len: length of string
  * @next: pointer to next node
