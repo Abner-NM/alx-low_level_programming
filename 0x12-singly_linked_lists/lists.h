@@ -1,5 +1,5 @@
-#ifndef LIST_H
-#define LIST_H
+#ifndef LISTS_H
+#define LISTS_H
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -10,7 +10,7 @@
  * @len: length of string
  * @next: pointer to next node
 */
-typedef struct list_n
+typedef struct list_s
 {
 	char *str;
 	unsigned int len;
