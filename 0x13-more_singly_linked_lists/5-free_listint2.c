@@ -2,7 +2,7 @@
 
 /**
  * free_listint2 -frees a listint_t list
- * @head: double pointer to node of listint_t 
+ * @head: double pointer to node of listint_t
 */
 void free_listint2(listint_t **head)
 {
@@ -10,7 +10,7 @@ void free_listint2(listint_t **head)
 
 	if (head == NULL)
 		return;
-	
+
 	while (*head)
 	{
 		temp = (*head)->next;
