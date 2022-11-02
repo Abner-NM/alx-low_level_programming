@@ -9,32 +9,23 @@
 */
 int create_file(const char *filename, char *text_content)
 {
-	int o, w, len = 0, n;
-	char *buf;
+	int o, w, len = 0;
 
 	if (!filename)
-		return(-1);
-
-	while (text_content[len])
-		len++;
-	
-	n = len + 1;
-	
-	buf  = malloc(sizeof(char) * n);
-
-	if (!buf)
 		return (-1);
 
-	o = open(filename, O_CREAT | O_WRONLY, 0600);
-	w = write(o, text_content, n);
-
-	if (o == -1 || w == -1)
+	if (text_content)
 	{
-		free(buf);
-		return (0);
+		while (text_content[len])
+			len++;
 	}
 
-	free(buf);
+	o = open(filename, O_CREAT | O_WRONLY, 0600);
+	w = write(o, text_content, len);
+
+	if (o == -1 || w == -1)
+		return (-1);
+
 	close(o);
 
 	return (1);
